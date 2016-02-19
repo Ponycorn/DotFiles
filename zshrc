@@ -82,3 +82,7 @@ alias httpFuzz="python /home/arthur/Tools/Patator/patator.py http_fuzz"
 alias nmapFast="nmap -vvv -n -sV --reason --version-intensity=3 --top-ports=1000 -oA"
 alias nmapFull="sudo nmap -vvv -n -sSV --reason -p- -oA"
 alias nmapPCI="nmap -vvv -sT -n --reason --top-ports=1000 -oA"
+alias l="ls -lh"
+alias ll="ls -alh"
+alias tree="tree -C"
+
