@@ -78,10 +78,15 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias httpFuzz="python /home/arthur/Tools/Patator/patator.py http_fuzz"
+
+alias burp="java -jar -Xmx1024m /home/arthur/Tools/Burp.jar"
+
 alias nmapFast="nmap -vvv -n -sV --reason --version-intensity=3 --top-ports=1000 -oA"
 alias nmapFull="sudo nmap -vvv -n -sSV --reason -p- -oA"
 alias nmapPCI="nmap -vvv -sT -n --reason --top-ports=1000 -oA"
+
 alias l="ls -lh"
 alias ll="ls -alh"
 alias tree="tree -C"
