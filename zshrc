@@ -91,3 +91,4 @@ alias l="ls -lh"
 alias ll="ls -alh"
 alias tree="tree -C"
 
+alias wrkRename="i3-msg 'rename workspace to "
