@@ -81,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias httpFuzz="python /home/arthur/Tools/Patator/patator.py http_fuzz"
 
-alias burp="java -jar -Xmx1024m /home/arthur/Tools/Burp.jar"
+alias burp="java -jar -Xmx2048m /home/arthur/Tools/Burp/Burp.jar"
 
 alias nmapFast="nmap -vvv -n -sV --reason --version-intensity=3 --top-ports=1000 -oA"
 alias nmapFull="sudo nmap -vvv -n -sSV --reason -p- -oA"
@@ -92,3 +92,7 @@ alias ll="ls -alh"
 alias tree="tree -C"
 
 alias wrkRename="i3-msg 'rename workspace to "
+export MSF_DATABASE_CONFIG=/home/arthur/Tools/metasploit-framework/database.yml
+export fuzzDir=/home/arthur/Tools/wordlists/directories/httpfuzz-directories.txt
+export fuzzFiles=/home/arthur/Tools/wordlists/files/httpfuzz-files.txt
+
