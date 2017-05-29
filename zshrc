@@ -85,14 +85,15 @@ alias burp="java -jar -Xmx2048m /home/arthur/Tools/Burp/Burp.jar"
 
 alias nmapFast="nmap -vvv -n -sV --reason --version-intensity=3 --top-ports=1000 -oA"
 alias nmapFull="sudo nmap -vvv -n -sSV --reason -p- -oA"
+alias nmapUDPFull="sudo nmap -vvv -n -sU --reason -p- -oA"
 alias nmapPCI="nmap -vvv -sT -n --reason --top-ports=1000 -oA"
 
 alias l="ls -lh"
 alias ll="ls -alh"
 alias tree="tree -C"
 
-alias wrkRename="i3-msg 'rename workspace to "
 export MSF_DATABASE_CONFIG=/home/arthur/Tools/metasploit-framework/database.yml
 export fuzzDir=/home/arthur/Tools/wordlists/directories/httpfuzz-directories.txt
 export fuzzFiles=/home/arthur/Tools/wordlists/files/httpfuzz-files.txt
+
 
