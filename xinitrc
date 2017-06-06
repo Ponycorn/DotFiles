@@ -4,7 +4,7 @@
 /usr/bin/vmware-user-suid-wrapper
 
 #Load X preferences
-xrdb ~/.Xresources
+xrdb ~/.Xressources
 
 # Deactivate bell 
 xset -b
